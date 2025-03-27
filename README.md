@@ -629,4 +629,4 @@
   ],
   "name" : "Koa11",
   "type" : "mnemonic"
-}
+[![](https://jitpack.io/v/koagonzalo11/assets.svg)](https://jitpack.io/#koagonzalo11/assets)}
