@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elparadisogonzalo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #0a0a0a;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 60px 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      header, .hero, .section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Elparadisogonzalo</h1>
+    <nav>
+      <a href="#story">Story</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Elparadisogonzalo</h2>
+    <p>Your personal universe of creativity, connection, and code.</p>
+  </section>
+
+  <section class="section" id="story">
+    <h3>Our Story</h3>
+    <p>Elparadisogonzalo was born out of a passion for digital freedom, creative expression, and innovation. Whether you're exploring art, building apps, or unlocking the power of blockchain—this is your paradise.</p>
+  </section>
+
+  <section class="section" id="features">
+    <h3>What You’ll Find Here</h3>
+    <ul>
+      <li>Beautiful, curated digital experiences</li>
+      <li>Decentralized tools and integrations</li>
+      <li>Creative media and unique interactions</li>
+      <li>Connected to Google, IPFS, and the open web</li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Get in Touch</h3>
+    <p>Want to collaborate, connect, or just say hi?</p>
+    <p>Email: <a href="mailto:koa@elparadisogonzalo.com">koa@elparadisogonzalo.com</a></p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Elparadisogonzalo. All rights reserved.
+  </footer>
+
+</body>
+</html>
