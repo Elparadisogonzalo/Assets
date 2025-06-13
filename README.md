@@ -1,4 +1,9 @@
- ## 🌐 Project Overview  
+<<<<<<< HEAD
+Your local content
+=======
+Incoming changes from origin/main
+>>>>>>> origin/main
+>>>>>>> ## 🌐 Project Overview  
 This repository is designed to interact with **Ethereum & Binance Smart Chain (BSC)** networks, utilizing Web3, GitHub CLI, Node.js, and Google Cloud CLI. It is linked to the **Unstoppable Domain**: `elparadisogonzalo.com`.  
 
 ## 📌 Wallet & Contract Information  
