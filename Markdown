@@ -1,0 +1,27 @@
+# Setup Cloudflared Tunnel for WebDAV
+## Prerequisites
+- Cloudflare account
+- `cloudflared` installed on Windows
+- Domain (e.g., `elparadisogonzalo.com`)
+
+## Steps
+1. **Authenticate Cloudflared**:
+   - Run `cloudflared tunnel login` and download `cert.pem`.
+2. **Create Tunnel**:
+   - Run `cloudflared tunnel create webdav-tunnel`.
+3. **Store Credentials**:
+   - Store `*.json` in `~/.cloudflared/`.
+4. **Configure Routing**:
+   - Create `config.yml` and define routing for `webdav.elparadisogonzalo.com`.
+5. **Point Domain to Tunnel**:
+   - Add a CNAME in Cloudflare DNS for `webdav.elparadisogonzalo.com`.
+6. **Test Connection**:
+   - Start the tunnel with `cloudflared tunnel run` and validate HTTPS connectivity.
+7. **Enable Auto-Start**:
+   - Configure the tunnel to start on boot using either Windows Service or Task Scheduler.
+8. **Secure Backup**:
+   - Backup `.cloudflared/config.yml` to a safe location.
+
+## Notes
+- Ensure your local WebDAV service is running on `localhost:8080`.
+- Replace `webdav.elparadisogonzalo.com` with your actual hostname.
